@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container{
+        width: 500px;
+
+    }
+    #header{
+        background-color: pink;
+        height: 40px;
+        width:500px;
+    }
+    #menu{
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+        float: left;
+    }
+    #content{
+        background-color: greenyellow;
+        height: 100px;
+        width: 400px;
+        float: left;
+    }
+    #footer{
+        background-color: aquamarine;
+        height: 40px;
+        width: 500px;
+        text-align: center;
+        /* 清除上面浮动的影响 */
+        clear:both; 
+    }
+</style>
+<body>
+    <div id="container">
+    <div id="header">主要的网页标题</div>
+    <div id="menu"><b>菜单</b><br>
+        HTML<br>
+        CSS<br>
+        JavaScript<br>
+    </div>
+    <div id="content">主要内容</div>
+    <div id="footer">版权</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" method="post">
+    <h2>表单</h2>
+    <label>用户名:</label>
+    <input type="text" name="username" id="username" placeholder="Please enter your name"><br>
+    <label>密码:</label>
+    <input type="password" name="password" id="password"><br>
+    <label>性别:</label>
+    <input type="radio" name="gender" id="male" value ="male" checked>
+    <label for="male">男</label>
+    <input type="radio" name="gender" id="female" value ="female">
+    <label for="female">女</label><br>
+    <label for="hobby">兴趣:</label>
+    <input type="checkbox" name="hobby" id="reading" value="reading">
+    <label for="reading">阅读</label>
+    <input type="checkbox" name="hobby" id="swimming" value="swimming">
+    <label for="swimming">游泳</label>
+    <input type="checkbox" name="hobby" id="running" value="running">
+    <label for="running">跑步</label><br>
+    <input type="checkbox" checked>订阅推送消息<br>
+    <label">国家:</label>
+    <select name="country" id="country">
+        <option value="cn">CN</option>
+        <option value="en">EN</option>
+        <option value="jp">JP</option>
+    </select>
+    <br>
+    <button>提交</button>
+</form>
+    
+</body>
+</html>
